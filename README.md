@@ -18,7 +18,6 @@ Users must be able to see a detailed view of coffee places, bars, weather, place
 
 
 # Basic WireFrames 
-<h1> Basic Wireframes </h1>
 
 <img src="https://i.imgur.com/ROXUkWQ.jpg">
 
