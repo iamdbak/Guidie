@@ -4,8 +4,8 @@ iOS app to explore places, food, bar, coffee, weather in a city
 
 # Team Members
 
-Divyaraj Bakrola,
-Syed Murtaza Kazmi
+</li>Divyaraj Bakrola</li>
+</li>Syed Murtaza Kazmi</li>
 
 
 # Overview
