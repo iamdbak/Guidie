@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0234126C21BF3DED005679B0 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234126B21BF3DED005679B0 /* ContentCell.swift */; };
+		0234126E21BF3ED8005679B0 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234126D21BF3ED8005679B0 /* ContentViewController.swift */; };
+		0234127021BF8466005679B0 /* CoffeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234126F21BF8466005679B0 /* CoffeeData.swift */; };
+		0234127221BF86C7005679B0 /* BarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234127121BF86C7005679B0 /* BarData.swift */; };
+		0234127421BF878B005679B0 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234127321BF878B005679B0 /* FoodData.swift */; };
+		0234127621BF8807005679B0 /* PlacesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234127521BF8807005679B0 /* PlacesData.swift */; };
+		0234128021C0ADB3005679B0 /* BarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234127F21C0ADB3005679B0 /* BarController.swift */; };
+		0234128221C0AE6E005679B0 /* BarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234128121C0AE6E005679B0 /* BarCell.swift */; };
+		0234128421C0C4C4005679B0 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234128321C0C4C4005679B0 /* FoodViewController.swift */; };
+		0234128621C0C4E7005679B0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234128521C0C4E7005679B0 /* WeatherData.swift */; };
+		0234128821C0D70F005679B0 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234128721C0D70F005679B0 /* WeatherViewController.swift */; };
+		0234128A21C0DB47005679B0 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234128921C0DB47005679B0 /* FoodCell.swift */; };
+		0234128E21C1F6DF005679B0 /* CoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234128D21C1F6DF005679B0 /* CoffeeViewController.swift */; };
+		0234129021C1F875005679B0 /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234128F21C1F875005679B0 /* CoffeeCell.swift */; };
+		0250D9E821BD13DF0082D5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250D9E721BD13DF0082D5CF /* AppDelegate.swift */; };
+		0250D9EA21BD13DF0082D5CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250D9E921BD13DF0082D5CF /* ViewController.swift */; };
+		0250D9ED21BD13DF0082D5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0250D9EB21BD13DF0082D5CF /* Main.storyboard */; };
+		0250D9EF21BD13E00082D5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0250D9EE21BD13E00082D5CF /* Assets.xcassets */; };
+		0250D9F221BD13E00082D5CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0250D9F021BD13E00082D5CF /* LaunchScreen.storyboard */; };
+		30054F1E21C0FD9E00182891 /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30054F1D21C0FD9E00182891 /* PlacesCell.swift */; };
+		30767D6421C0EE2A00E65C85 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30767D6321C0EE2A00E65C85 /* PlacesViewController.swift */; };
+		7F6714F2094235A81985FC17 /* Pods_Vizit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7569FC929A26F5D3C4C5B0E4 /* Pods_Vizit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0234126B21BF3DED005679B0 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		0234126D21BF3ED8005679B0 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		0234126F21BF8466005679B0 /* CoffeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeData.swift; sourceTree = "<group>"; };
+		0234127121BF86C7005679B0 /* BarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarData.swift; sourceTree = "<group>"; };
+		0234127321BF878B005679B0 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		0234127521BF8807005679B0 /* PlacesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesData.swift; sourceTree = "<group>"; };
+		0234127F21C0ADB3005679B0 /* BarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarController.swift; sourceTree = "<group>"; };
+		0234128121C0AE6E005679B0 /* BarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCell.swift; sourceTree = "<group>"; };
+		0234128321C0C4C4005679B0 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		0234128521C0C4E7005679B0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		0234128721C0D70F005679B0 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		0234128921C0DB47005679B0 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		0234128D21C1F6DF005679B0 /* CoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
+		0234128F21C1F875005679B0 /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
+		0250D9E421BD13DF0082D5CF /* Vizit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vizit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0250D9E721BD13DF0082D5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0250D9E921BD13DF0082D5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0250D9EC21BD13DF0082D5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0250D9EE21BD13E00082D5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0250D9F121BD13E00082D5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0250D9F321BD13E00082D5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF85474544E3AD025BB04DF /* Pods-Vizit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vizit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vizit/Pods-Vizit.debug.xcconfig"; sourceTree = "<group>"; };
+		1BD036E3E1B52E9811C85D85 /* Pods-Vizit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vizit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vizit/Pods-Vizit.release.xcconfig"; sourceTree = "<group>"; };
+		30054F1D21C0FD9E00182891 /* PlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
+		30767D6321C0EE2A00E65C85 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		7569FC929A26F5D3C4C5B0E4 /* Pods_Vizit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vizit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0250D9E121BD13DF0082D5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6714F2094235A81985FC17 /* Pods_Vizit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0250D9DB21BD13DF0082D5CF = {
+			isa = PBXGroup;
+			children = (
+				0250D9E621BD13DF0082D5CF /* Vizit */,
+				0250D9E521BD13DF0082D5CF /* Products */,
+				FCFAB2473A09ADA3ED35560A /* Pods */,
+				F60FE27B0480B8E2F4A3F369 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0250D9E521BD13DF0082D5CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0250D9E421BD13DF0082D5CF /* Vizit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0250D9E621BD13DF0082D5CF /* Vizit */ = {
+			isa = PBXGroup;
+			children = (
+				0250D9E721BD13DF0082D5CF /* AppDelegate.swift */,
+				0250D9E921BD13DF0082D5CF /* ViewController.swift */,
+				0250D9EB21BD13DF0082D5CF /* Main.storyboard */,
+				0250D9EE21BD13E00082D5CF /* Assets.xcassets */,
+				0250D9F021BD13E00082D5CF /* LaunchScreen.storyboard */,
+				0250D9F321BD13E00082D5CF /* Info.plist */,
+				0234126B21BF3DED005679B0 /* ContentCell.swift */,
+				0234126D21BF3ED8005679B0 /* ContentViewController.swift */,
+				0234126F21BF8466005679B0 /* CoffeeData.swift */,
+				0234127121BF86C7005679B0 /* BarData.swift */,
+				0234127321BF878B005679B0 /* FoodData.swift */,
+				0234127521BF8807005679B0 /* PlacesData.swift */,
+				0234127F21C0ADB3005679B0 /* BarController.swift */,
+				0234128121C0AE6E005679B0 /* BarCell.swift */,
+				0234128321C0C4C4005679B0 /* FoodViewController.swift */,
+				0234128521C0C4E7005679B0 /* WeatherData.swift */,
+				0234128721C0D70F005679B0 /* WeatherViewController.swift */,
+				0234128921C0DB47005679B0 /* FoodCell.swift */,
+				30767D6321C0EE2A00E65C85 /* PlacesViewController.swift */,
+				30054F1D21C0FD9E00182891 /* PlacesCell.swift */,
+				0234128D21C1F6DF005679B0 /* CoffeeViewController.swift */,
+				0234128F21C1F875005679B0 /* CoffeeCell.swift */,
+			);
+			path = Vizit;
+			sourceTree = "<group>";
+		};
+		F60FE27B0480B8E2F4A3F369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7569FC929A26F5D3C4C5B0E4 /* Pods_Vizit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCFAB2473A09ADA3ED35560A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EF85474544E3AD025BB04DF /* Pods-Vizit.debug.xcconfig */,
+				1BD036E3E1B52E9811C85D85 /* Pods-Vizit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0250D9E321BD13DF0082D5CF /* Vizit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0250D9F621BD13E00082D5CF /* Build configuration list for PBXNativeTarget "Vizit" */;
+			buildPhases = (
+				6792FCAFD11184442709A1F5 /* [CP] Check Pods Manifest.lock */,
+				0250D9E021BD13DF0082D5CF /* Sources */,
+				0250D9E121BD13DF0082D5CF /* Frameworks */,
+				0250D9E221BD13DF0082D5CF /* Resources */,
+				44A0B2B47AA146A8E912666E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vizit;
+			productName = Vizit;
+			productReference = 0250D9E421BD13DF0082D5CF /* Vizit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0250D9DC21BD13DF0082D5CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Vizit;
+				TargetAttributes = {
+					0250D9E321BD13DF0082D5CF = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 0250D9DF21BD13DF0082D5CF /* Build configuration list for PBXProject "Vizit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0250D9DB21BD13DF0082D5CF;
+			productRefGroup = 0250D9E521BD13DF0082D5CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0250D9E321BD13DF0082D5CF /* Vizit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0250D9E221BD13DF0082D5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0250D9F221BD13E00082D5CF /* LaunchScreen.storyboard in Resources */,
+				0250D9EF21BD13E00082D5CF /* Assets.xcassets in Resources */,
+				0250D9ED21BD13DF0082D5CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44A0B2B47AA146A8E912666E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vizit/Pods-Vizit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vizit/Pods-Vizit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6792FCAFD11184442709A1F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vizit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0250D9E021BD13DF0082D5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0234127421BF878B005679B0 /* FoodData.swift in Sources */,
+				0234128A21C0DB47005679B0 /* FoodCell.swift in Sources */,
+				0234128821C0D70F005679B0 /* WeatherViewController.swift in Sources */,
+				0234128221C0AE6E005679B0 /* BarCell.swift in Sources */,
+				0234128621C0C4E7005679B0 /* WeatherData.swift in Sources */,
+				0234129021C1F875005679B0 /* CoffeeCell.swift in Sources */,
+				0234126E21BF3ED8005679B0 /* ContentViewController.swift in Sources */,
+				0234126C21BF3DED005679B0 /* ContentCell.swift in Sources */,
+				30767D6421C0EE2A00E65C85 /* PlacesViewController.swift in Sources */,
+				0234127021BF8466005679B0 /* CoffeeData.swift in Sources */,
+				0234127221BF86C7005679B0 /* BarData.swift in Sources */,
+				0234128E21C1F6DF005679B0 /* CoffeeViewController.swift in Sources */,
+				0234127621BF8807005679B0 /* PlacesData.swift in Sources */,
+				0250D9EA21BD13DF0082D5CF /* ViewController.swift in Sources */,
+				0234128421C0C4C4005679B0 /* FoodViewController.swift in Sources */,
+				30054F1E21C0FD9E00182891 /* PlacesCell.swift in Sources */,
+				0250D9E821BD13DF0082D5CF /* AppDelegate.swift in Sources */,
+				0234128021C0ADB3005679B0 /* BarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0250D9EB21BD13DF0082D5CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0250D9EC21BD13DF0082D5CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0250D9F021BD13E00082D5CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0250D9F121BD13E00082D5CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0250D9F421BD13E00082D5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0250D9F521BD13E00082D5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0250D9F721BD13E00082D5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF85474544E3AD025BB04DF /* Pods-Vizit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NP9M857X88;
+				INFOPLIST_FILE = Vizit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizit.Vizit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0250D9F821BD13E00082D5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD036E3E1B52E9811C85D85 /* Pods-Vizit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NP9M857X88;
+				INFOPLIST_FILE = Vizit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizit.Vizit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0250D9DF21BD13DF0082D5CF /* Build configuration list for PBXProject "Vizit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0250D9F421BD13E00082D5CF /* Debug */,
+				0250D9F521BD13E00082D5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0250D9F621BD13E00082D5CF /* Build configuration list for PBXNativeTarget "Vizit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0250D9F721BD13E00082D5CF /* Debug */,
+				0250D9F821BD13E00082D5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0250D9DC21BD13DF0082D5CF /* Project object */;
+}
