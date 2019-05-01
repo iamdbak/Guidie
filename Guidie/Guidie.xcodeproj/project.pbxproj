@@ -46,7 +46,7 @@
 		0234128921C0DB47005679B0 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		0234128D21C1F6DF005679B0 /* CoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
 		0234128F21C1F875005679B0 /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
-		0250D9E421BD13DF0082D5CF /* Vizit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vizit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0250D9E421BD13DF0082D5CF /* Guidie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guidie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0250D9E721BD13DF0082D5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0250D9E921BD13DF0082D5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0250D9EC21BD13DF0082D5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		0250D9DB21BD13DF0082D5CF = {
 			isa = PBXGroup;
 			children = (
-				0250D9E621BD13DF0082D5CF /* Vizit */,
+				0250D9E621BD13DF0082D5CF /* Guidie */,
 				0250D9E521BD13DF0082D5CF /* Products */,
 				FCFAB2473A09ADA3ED35560A /* Pods */,
 				F60FE27B0480B8E2F4A3F369 /* Frameworks */,
@@ -85,12 +85,12 @@
 		0250D9E521BD13DF0082D5CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0250D9E421BD13DF0082D5CF /* Vizit.app */,
+				0250D9E421BD13DF0082D5CF /* Guidie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0250D9E621BD13DF0082D5CF /* Vizit */ = {
+		0250D9E621BD13DF0082D5CF /* Guidie */ = {
 			isa = PBXGroup;
 			children = (
 				0250D9E721BD13DF0082D5CF /* AppDelegate.swift */,
@@ -116,7 +116,7 @@
 				0234128D21C1F6DF005679B0 /* CoffeeViewController.swift */,
 				0234128F21C1F875005679B0 /* CoffeeCell.swift */,
 			);
-			path = Vizit;
+			path = Guidie;
 			sourceTree = "<group>";
 		};
 		F60FE27B0480B8E2F4A3F369 /* Frameworks */ = {
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0250D9E321BD13DF0082D5CF /* Vizit */ = {
+		0250D9E321BD13DF0082D5CF /* Guidie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0250D9F621BD13E00082D5CF /* Build configuration list for PBXNativeTarget "Vizit" */;
+			buildConfigurationList = 0250D9F621BD13E00082D5CF /* Build configuration list for PBXNativeTarget "Guidie" */;
 			buildPhases = (
 				6792FCAFD11184442709A1F5 /* [CP] Check Pods Manifest.lock */,
 				0250D9E021BD13DF0082D5CF /* Sources */,
@@ -153,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = Vizit;
+			name = Guidie;
 			productName = Vizit;
-			productReference = 0250D9E421BD13DF0082D5CF /* Vizit.app */;
+			productReference = 0250D9E421BD13DF0082D5CF /* Guidie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0250D9DF21BD13DF0082D5CF /* Build configuration list for PBXProject "Vizit" */;
+			buildConfigurationList = 0250D9DF21BD13DF0082D5CF /* Build configuration list for PBXProject "Guidie" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0250D9E321BD13DF0082D5CF /* Vizit */,
+				0250D9E321BD13DF0082D5CF /* Guidie */,
 			);
 		};
 /* End PBXProject section */
@@ -419,13 +419,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NP9M857X88;
-				INFOPLIST_FILE = Vizit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Guidie/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vizit.Vizit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidie.Guidie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -443,13 +443,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NP9M857X88;
-				INFOPLIST_FILE = Vizit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Guidie/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vizit.Vizit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guidie.Guidie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -460,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0250D9DF21BD13DF0082D5CF /* Build configuration list for PBXProject "Vizit" */ = {
+		0250D9DF21BD13DF0082D5CF /* Build configuration list for PBXProject "Guidie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0250D9F421BD13E00082D5CF /* Debug */,
@@ -469,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0250D9F621BD13E00082D5CF /* Build configuration list for PBXNativeTarget "Vizit" */ = {
+		0250D9F621BD13E00082D5CF /* Build configuration list for PBXNativeTarget "Guidie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0250D9F721BD13E00082D5CF /* Debug */,
