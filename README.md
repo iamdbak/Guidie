@@ -27,6 +27,6 @@ Users must be able to see a detailed view of coffee places, bars, weather, place
 
 # Working Model Gif
 
-![](http://recordit.co/l063nf789j)
+![](http://recordit.co/l063nf789j.gif)
 
 
