@@ -21,3 +21,10 @@ Users must be able to see a detailed view of coffee places, bars, weather, place
 
 <img src="https://i.imgur.com/ROXUkWQ.jpg">
 
+
+
+
+
+# Working Model Gif
+
+http://recordit.co/l063nf789j
