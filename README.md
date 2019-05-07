@@ -9,7 +9,7 @@ iOS app to explore places, food, bar, coffee, weather in a city
 
 
 # Overview
-Vizit is an iOS application that lets users get best value coffee places, bars, weather, places, events, and food. Vizit uses Yelp API , Eventbrite API , Google Places API , Open Weather API to get data and filter them.
+Guidie is an iOS application that lets users get best value coffee places, bars, weather, places, events, and food. Guidie uses Yelp API , Eventbrite API , Google Places API , Open Weather API to get data and filter them.
 
 # Features
 Users must be able to enter a city name they want to search coffee places, bars, weather, places, events, and food.
